@@ -1,4 +1,4 @@
-# AI and Cognition - Harry Patria
+# LLM AI & Cognition - Harry Patria
 
 ## Research Schematic Diagram
 
