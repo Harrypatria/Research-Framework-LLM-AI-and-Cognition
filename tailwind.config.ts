@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'Inter', 'sans-serif'],
+        display: ['DM Sans', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,28 +61,37 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        diagram: {
+          bg: "hsl(var(--diagram-bg))",
+          card: "hsl(var(--diagram-card))",
+          border: "hsl(var(--diagram-border))",
+          line: "hsl(var(--diagram-line))",
+        },
+        wp1: "hsl(var(--wp1))",
+        wp2: "hsl(var(--wp2))",
+        wp3: "hsl(var(--wp3))",
+        wp4: "hsl(var(--wp4))",
+        wp5: "hsl(var(--wp5))",
+        wp6: "hsl(var(--wp6))",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      boxShadow: {
+        'diagram': '0 4px 6px -1px hsl(var(--diagram-shadow) / 0.05), 0 2px 4px -2px hsl(var(--diagram-shadow) / 0.05)',
+        'diagram-lg': '0 10px 15px -3px hsl(var(--diagram-shadow) / 0.08), 0 4px 6px -4px hsl(var(--diagram-shadow) / 0.05)',
+        'diagram-xl': '0 20px 25px -5px hsl(var(--diagram-shadow) / 0.1), 0 8px 10px -6px hsl(var(--diagram-shadow) / 0.05)',
+      },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
