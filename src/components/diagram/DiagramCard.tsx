@@ -41,10 +41,10 @@ export const DiagramCard = ({
   return (
     <div
       className={cn(
-        "diagram-card p-4 animate-fade-in-up",
+        "diagram-card p-3 animate-fade-in-up",
         wpBorderMap[wpColor],
-        variant === "highlight" && "border-2",
-        variant === "metric" && "bg-secondary/50",
+        variant === "highlight" && "border-2 border-border",
+        variant === "metric" && "bg-secondary/30",
         animationDelay,
         className
       )}
