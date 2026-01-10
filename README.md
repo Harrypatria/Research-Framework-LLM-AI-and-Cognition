@@ -1,5 +1,10 @@
 # LLM AI & Cognition - Harry Patria
 
+![React](https://img.shields.io/badge/React-18.3-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue)
+![Vite](https://img.shields.io/badge/Vite-5.4-purple)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-teal)
+
 ## Research Schematic Diagram
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
